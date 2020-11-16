@@ -92,7 +92,7 @@ footer {
   color: #ffffff;
   font-weight: 100;
   font-family: "Montserrat";
-   margin-left:150px ;
+   margin-left:149px ;
 }
 .footer-right__text {
   display: flex;
@@ -104,6 +104,7 @@ footer {
 }
 .icon{
   margin-left: 30px ;
+  
 }
 .footer-right__text a {
   text-decoration: none;
