@@ -55,9 +55,10 @@ export default {
 }
 .header {
   width: 100%;
-  height: 190px;
+  height: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
   
 }
 .logo {
@@ -66,15 +67,15 @@ export default {
 .header a {
   color: black;
   text-decoration: none;
-  
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 17px;
 }
 .links i{
   font-size: 30px;
   position: absolute;
-  top:10%;
-  right: 14%;
+  top:13%;
+  right: 7%;
   z-index: 1;
   color:#68635e ;
   cursor: pointer;
@@ -90,9 +91,11 @@ export default {
   width: 100%;
   position: relative;
   z-index: 1;
+  top :-4px;
+  left: -6px;
 }
 .links li{
-  margin: 85px 80px 0 0;
+  margin: 85px 55px 0 0;
   
 }
 .links input {

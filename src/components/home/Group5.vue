@@ -1,7 +1,10 @@
 <template>
-  <div class="group5">
+<div class="h2">
+     <img class="image5" src="@/assets/group5-image.png">  
+      <div class="group5">
+          
       <div class="group5-text">
-          <img src="@/assets/group5-image.png">
+           
           <h5>Hiking in the mountains</h5>
             <p>lorem ipsum dolor sit amet, consectetur 
             adipisicing elit, sed do ei-</p>
@@ -11,6 +14,7 @@
             <p>enim ad minim veniam quis</p>
       </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -20,17 +24,29 @@ export default {
 </script>
 
 <style>
-.group5{
-    width: 1440px;
+.h2{
+    max-width: 1440px;
+    height: auto;
     margin: 0 auto;
-    height: 760px;
+}
+.group5{
+    max-width: 100%;
+    margin-top: -5px;
+    height: 500px;
     background-color:#99928c;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .group5-text img{
-    margin-top: -20%;
+    padding-top:20% ;
+    width: 100%;
+}
+.image5{
+    width: 1285px;
+}
+.group5-text{
+    width: 100%;
 }
 .group5-text h5{
     text-align: center; 

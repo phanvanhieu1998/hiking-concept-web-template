@@ -1,15 +1,15 @@
 <template>
-  <footer>
-   
+  <footer class="footerr">
     <div class="footer-left">
-      <span>TItle here</span>
+      <span>Title Here</span>
       <div class="footer-left__text">
         <p>
-          Lorem ipsum dolor sit amet facere, ipsam quisquam impedit deleniti
-          culpaesse rem necessitatibus deleniti culpa esse rem necessitatibus
+          Lorem ipsum dolor sit 
+          culpaesse rem necessitatibus deleniti 
           culpa esse rem culpa esse rem necessitatibus
-        </p> 
-        <i class="fab fa-facebook "></i>
+          culpaesse rem necessitatibus deleniti 
+        </p>
+        <i class="fab fa-facebook"></i>
         <i class="fab fa-facebook icon"></i>
         <i class="fab fa-facebook icon"></i>
         <i class="fab fa-facebook icon"></i>
@@ -19,7 +19,7 @@
       <div class="footer-right__text">
         <div class="footer-right__text-col1">
           <ul>
-            <li><a class="other" href="">About </a></li>
+            <h3>About</h3>
             <li><a href="">History</a></li>
             <li><a href="">Our Team</a></li>
             <li><a href="">Brand Guidelines</a></li>
@@ -29,7 +29,7 @@
         </div>
         <div class="footer-right__text-col2">
           <ul>
-            <li><a class="other" href="">Services</a></li>
+            <h3>Services</h3>
             <li><a href="">How to Order</a></li>
             <li><a href="">Our Product</a></li>
             <li><a href="">Order Status</a></li>
@@ -39,7 +39,7 @@
         </div>
         <div class="footer-right__text-col3">
           <ul>
-            <li><a class="other" href="">Other</a></li>
+            <h3>Other</h3>
             <li><a href="">Contact Us</a></li>
             <li><a href="">Help</a></li>
             <li><a href="">Privacy</a></li>
@@ -59,60 +59,76 @@ export default {
 </script>
 
 <style>
+.footerr {
+  max-width: 1440px;
+}
 footer {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 1440px;
+  
+  width: 100%;
   height: 700px;
   background-color: #7f7770;
 }
 
 .footer-left {
   width: 50%;
-  margin-top: 15%;
+  margin-top:7% ;
+}
+.footer-right__text h3{
+  font-size: 32px;
+color: #ffffff;
+font-weight: 100;
+ font-family: "Montserrt", sans-serif;
+cursor: pointer;
+margin-bottom:35px;
 }
 .footer-right {
   width: 50%;
-  margin-top: 15%;
+  margin-top: 10%;
+  margin-right: 90px;
 }
 .footer-left__text {
   width: 500px;
   height: 130px;
-  margin-left:150px ;
+  margin-left: 90px;
 }
 .footer-left__text p {
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
-  font-weight: 100;
-  font-family: "Montserrat";
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 100px;
+  line-height: 120%;
 }
+
 .footer-left span {
   font-size: 32px;
   color: #ffffff;
-  font-weight: 100;
-  font-family: "Montserrat";
-   margin-left:149px ;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 90px;
 }
 .footer-right__text {
   display: flex;
+  height: auto
 }
-.footer-left__text i{
- 
- color: white;
- font-size: 30px;
+.footer-left__text i {
+  color: white;
+  font-size: 30px;
 }
-.icon{
-  margin-left: 30px ;
-  
+.icon {
+  margin-left: 10px;
 }
 .footer-right__text a {
   text-decoration: none;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 20px;
+  line-height:37px;
   color: #ffffff;
-  font-weight: 400;
-  font-family: "Montserrat";
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+
 }
 .footer-right__text ul {
   list-style: none;

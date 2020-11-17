@@ -1,5 +1,6 @@
 <template>
   <div class="group8">
+    
     <span>Title here</span><br />
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
@@ -7,7 +8,9 @@
     <div class="group8-input">
       <input type="text" placeholder="Your Email" />
       <button>SUBSCRIBE</button>
-       <img src="@/assets/footer-image.png">
+       <img class="image3" src="@/assets/image3.png">
+      
+       
     </div>
     
   </div>
@@ -24,23 +27,31 @@ export default {};
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  width: 1440px;
-  height: 526px;
+  max-width: 1440px;
+  height: 600px;
   background-color: #deb37e;
   position: relative;
 }
 .group8-input img{
   position: absolute;
-  top:250%;
-  left: 58px;
+  top:263%;
+  left: 51px;
+  max-width: 100%;
 }
+.image5{
+  width: 1285px;
+}
+
 .group8 span {
   font-size: 75px;
   color: #ffffff;
   font-weight: 700;
   font-family: "Open Sans";
 }
-
+.image4{
+  margin-top:70px ;
+  width: 1285px;
+}
 .group8 p {
   font-size: 30px;
   color: #54524f;
@@ -76,7 +87,7 @@ export default {};
 }
 .group8-input {
   position: relative;
-  margin-top: 85px;
+  margin-top: 60px;
   right:  4%;
 }
 </style>
