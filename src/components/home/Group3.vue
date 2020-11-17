@@ -2,16 +2,20 @@
   <div class="h3">
     <div class="group3">
       <div class="group3-image">
-        <img  src="@/assets/group3-image.png" />
+        <img src="@/assets/image3.png" />
       </div>
       <div class="group3-text">
-        <span>Discount up to 50% All Excursitons</span>
+        <div class="up">
+          <span>Discount up to 50% All Excursitons </span>
+        </div>
+
         <p>
           Lorem ipsum, dolor sit amet cupiditate molestiae nemus adipisci porro?
-          porro? Animi laborum rem 
-          Animi laborum !
+          porro? Animi laborum rem Animi laborum !
         </p>
-        <button>READ MORE</button>
+        <div class="more">
+          <button>READ MORE</button>
+        </div>
       </div>
     </div>
   </div>
@@ -29,13 +33,26 @@ export default {};
 .group3 {
   display: flex;
   max-width: 100%;
-  
-  height: 780px;
+
+  height: auto;
   background-color: #7f7770;
   margin-top: 180px;
 }
 .group3-text {
-  margin: 200px 66px 20px;
+  width: 50%;
+  height: auto;
+  font-size: 58px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  
+  display: block;
+}
+.more{
+  margin-top: -45px;
+}
+.up{
+ margin: 150px 10px 60px 60px;
 }
 .group3-text span {
   width: 100%;
@@ -43,15 +60,15 @@ export default {};
   font-size: 58px;
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .group3-image {
   max-width: 50%;
 }
-.group3-image img{
-  max-width: 642.5px;
+.group3-image img {
+  max-width: 100%;
   position: relative;
-  height: 784px;
+  height: auto;
   z-index: 1;
 }
 .group3-text p {
@@ -59,11 +76,17 @@ export default {};
   font-size: 29px;
   color: #ffffff;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 60px;
+  
+ 
+}
+.more {
+  /* margin-top: -45px; */
 }
 .group3-text button {
-  max-width: 338px;
-  height: 73px;
+  width: 300px;
+  height: 70px;
   background-color: #e2a355;
   font-size: 29px;
   letter-spacing: 6px;
@@ -74,5 +97,7 @@ export default {};
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 </style>

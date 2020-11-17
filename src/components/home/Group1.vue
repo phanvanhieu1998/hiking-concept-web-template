@@ -1,11 +1,14 @@
 <template>
   <div class="h1">
+    <div class="h1__image">
+      <img src="@/assets/image1.png">
+    </div>
     <div class="body">
       <div class="body-image">
-        <img src="@/assets/image.png" />
+        <img src="@/assets/image.png" /> 
       </div>
       <div class="text">
-        <h2>IT'S TIME</h2>
+        <h2>IT' S TIME</h2>
         <h2>FOR HIKING</h2>
         <span class="dolor">LOREMIPSUM DOLOR</span>
         <div class="more">
@@ -15,6 +18,9 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio sequi
           rem consectetur,adipisicing elit
         </p>
+      </div>
+      <div class="image2">
+        <img src="@/assets/image2.png">
       </div>
     </div>
    
@@ -34,23 +40,44 @@ export default {
   margin: 0 auto;
   max-width: 1440px;
 }
+.h1__image{
+  width: 100%;
+  
+}
+.image2 img{
+   width: 100%;
+  margin: 0 auto;
+  
+  position: relative;
+  top:-5px;
+  left: -5px;
+}
+.h1__image img{
+  width: 100%;
+  margin-left: -6px;
+  
+}
 .body {
   margin: 0 auto;
 
   width: 100%;
+  
   height: auto;
+  position: relative;
 }
 .body-image img {
   width: 100%;
-  margin-top: -60px;
+  height: 600px;
   margin-left: -5px;
+  margin-top: -5px;
 }
 .shapee{
   width: 300px;
 }
 .body h2 {
+  line-height: 2.5;
   margin: 0;
-  font-size: 92px;
+  font-size: 98px;
   color: #deb37e;
   font-weight: 800;
   line-height: 100%;
@@ -70,8 +97,9 @@ export default {
 }
 .text {
   position: absolute;
-  top: 60%;
+  top: 100px;
   margin-left: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 .read {
   width: 220px;
@@ -86,7 +114,7 @@ export default {
   border: 2px;
   border-radius: 20px;
   cursor: pointer;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 .lorem {
   width: 452px;

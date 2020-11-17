@@ -21,15 +21,18 @@
       </div>
     </div>
     <div class="group7-content__2">
-      <img src="@/assets/hi.png" />
+      
       <p>
         lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei-
       </p>
       <p>usmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
       <p>enim ad minim veniam quis</p>
-      <span>Lorem Ipsum</span>
+      <div class="done">
+        <span>Lorem Ipsum</span>
+      </div>
     </div>
-    <img class="image4" src="@/assets/image4.png">
+ 
+    
   </div>
 </template>
 
@@ -41,16 +44,19 @@ export default {};
 .group7 {
   margin: 0 auto;
   max-width: 1440px;
-  height: 600px;
+  height: 500px;
   background-color: white;
+  
 }
 .group7-content {
   display: flex;
-  width: 1135px;
+  max-width: 100%;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   height: auto;
-  margin-top: 185px;
+  margin-top: 100px;
+     padding-left: 70px;
+         padding-right: 70px;
 }
 .ipsum {
   font-size: 33px;
@@ -73,7 +79,12 @@ export default {};
 .group7-content__2 {
   text-align: center;
   margin-top: 10%;
-  line-height: 15%;
+  line-height: 35px;
+
+  position: relative;
+}
+.done{
+  margin-top: 50px;
 }
 .group7-content__2 p {
   font-size: 25px;
@@ -81,6 +92,7 @@ export default {};
   font-weight: 550;
   font-family: "Open Sans";
   text-align: center;
+  margin: 0px;
 }
 .group7-content__2 span {
   font-size: 21px;
@@ -89,6 +101,8 @@ export default {};
   font-weight: 800;
   font-family: "Open Sans";
   text-align: center;
+  
+  
  
 }
 </style>

@@ -1,49 +1,53 @@
 <template>
   <footer class="footerr">
-    <div class="footer-left">
-      <span>Title Here</span>
-      <div class="footer-left__text">
-        <p>
-          Lorem ipsum dolor sit 
-          culpaesse rem necessitatibus deleniti 
-          culpa esse rem culpa esse rem necessitatibus
-          culpaesse rem necessitatibus deleniti 
-        </p>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-facebook icon"></i>
-        <i class="fab fa-facebook icon"></i>
-        <i class="fab fa-facebook icon"></i>
-      </div>
+    <div class="footer-image">
+      <img src="@/assets/footer-image.png" />
     </div>
-    <div class="footer-right">
-      <div class="footer-right__text">
-        <div class="footer-right__text-col1">
-          <ul>
-            <h3>About</h3>
-            <li><a href="">History</a></li>
-            <li><a href="">Our Team</a></li>
-            <li><a href="">Brand Guidelines</a></li>
-            <li><a href="">Terms&Condition</a></li>
-            <li><a href="">Privacy Policy</a></li>
-          </ul>
+    <div class="footer1">
+      <div class="footer-left">
+        <span>Title Here</span>
+        <div class="footer-left__text">
+          <p>
+            Lorem ipsum dolor sit culpaesse rem necessitatibus deleniti culpa
+            esse rem culpa esse rem necessitatibus culpaesse rem necessitatibus
+            deleniti
+          </p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-facebook icon"></i>
+          <i class="fab fa-facebook icon"></i>
+          <i class="fab fa-facebook icon"></i>
         </div>
-        <div class="footer-right__text-col2">
-          <ul>
-            <h3>Services</h3>
-            <li><a href="">How to Order</a></li>
-            <li><a href="">Our Product</a></li>
-            <li><a href="">Order Status</a></li>
-            <li><a href="">Promo</a></li>
-            <li><a href="">Payment Method</a></li>
-          </ul>
-        </div>
-        <div class="footer-right__text-col3">
-          <ul>
-            <h3>Other</h3>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Help</a></li>
-            <li><a href="">Privacy</a></li>
-          </ul>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right__text">
+          <div class="footer-right__text-col1">
+            <ul>
+              <h3>About</h3>
+              <li><a href="">History</a></li>
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Brand Guidelines</a></li>
+              <li><a href="">Terms&Condition</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-right__text-col2">
+            <ul>
+              <h3>Services</h3>
+              <li><a href="">How to Order</a></li>
+              <li><a href="">Our Product</a></li>
+              <li><a href="">Order Status</a></li>
+              <li><a href="">Promo</a></li>
+              <li><a href="">Payment Method</a></li>
+            </ul>
+          </div>
+          <div class="footer-right__text-col3">
+            <ul>
+              <h3>Other</h3>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Help</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -61,12 +65,31 @@ export default {
 <style>
 .footerr {
   max-width: 1440px;
+  position: relative;
+  height: 500px;
+  
+}
+.footer1{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  
+  
+}
+.footer-image{
+  max-width: 100%;
+  position: absolute;
+  top:-15;
+}
+.footer-image img{
+  max-width: 100%;
 }
 footer {
-  display: flex;
+  
   align-items: center;
   margin: 0 auto;
-  
+
   width: 100%;
   height: 700px;
   background-color: #7f7770;
@@ -74,15 +97,17 @@ footer {
 
 .footer-left {
   width: 50%;
-  margin-top:7% ;
+  padding-top: 100px;
+  margin: 0;
+  height: auto;
 }
-.footer-right__text h3{
+.footer-right__text h3 {
   font-size: 32px;
-color: #ffffff;
-font-weight: 100;
- font-family: "Montserrt", sans-serif;
-cursor: pointer;
-margin-bottom:35px;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: "Montserrt", sans-serif;
+  cursor: pointer;
+  margin-bottom: 35px;
 }
 .footer-right {
   width: 50%;
@@ -91,7 +116,7 @@ margin-bottom:35px;
 }
 .footer-left__text {
   width: 500px;
-  height: 130px;
+  height: auto;
   margin-left: 90px;
 }
 .footer-left__text p {
@@ -112,7 +137,7 @@ margin-bottom:35px;
 }
 .footer-right__text {
   display: flex;
-  height: auto
+  height: auto;
 }
 .footer-left__text i {
   color: white;
@@ -124,14 +149,12 @@ margin-bottom:35px;
 .footer-right__text a {
   text-decoration: none;
   font-size: 20px;
-  line-height:37px;
+  line-height: 37px;
   color: #ffffff;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
-
 }
 .footer-right__text ul {
   list-style: none;
 }
-
 </style>

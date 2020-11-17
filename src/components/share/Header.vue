@@ -3,8 +3,7 @@
     <div class="container">
       <div class="header">
         <div class="logo">
-          
-          <img src="@/assets/logoo.png" alt="#">
+          <img src="@/assets/logoo.png" alt="#" />
         </div>
         <div class="toolbar">
           <ul class="links">
@@ -17,14 +16,18 @@
             <li>
               <a :href="ourStory">{{ ourStory }}</a>
             </li>
-            <li >
+            <li>
               <a :href="contactUs">{{ contactUs }}</a>
             </li>
-            <input  type="text" ><i class="fas fa-search"></i>
+            <li>
+              <span class="input__search"><input type="text" />
+              <i class="fas fa-search"></i>
+              </span>
+              
+            </li>
           </ul>
         </div>
       </div>
-      <img class="shape" src="@/assets/shape.png" />
       
     </div>
   </header>
@@ -35,14 +38,12 @@ export default {
   name: "comp-header",
   data() {
     return {
-     
       menu: "MENU",
       home: "HOME",
       ourStory: "OUR STORY",
       contactUs: "CONTACT US",
     };
   },
-
 };
 </script>
 
@@ -58,54 +59,50 @@ export default {
   height: auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  padding: 30px  0;
   
+  
+ 
 }
-.logo {
-  margin: 55px 0 0 70px;
+.toolbar {
+  padding: 20px 0;
+  height: auto;
 }
 .header a {
   color: black;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 17px;
+  padding: 25px;
 }
-.links i{
-  font-size: 30px;
-  position: absolute;
-  top:13%;
-  right: 7%;
-  z-index: 1;
-  color:#68635e ;
-  cursor: pointer;
-}
+
 .links {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  margin: 0 60px 0 0;
- 
-}
-.shape{
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  top :-4px;
-  left: -6px;
-}
-.links li{
-  margin: 85px 55px 0 0;
-  
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
 }
 .links input {
   border-radius: 50px;
   border: 0;
   background: #c3bfbc;
   width: 185px;
-  height: 50px;
-  margin-top: 68px;
-  z-index: 1;
-  padding: 0;
+  height: 51px;
+ 
+  padding: 0 20px;
+  margin-left: 25px;
+  
+}
+.input__search i{
+  position: relative;
+  top:6px;
+  right: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  
 }
 </style>

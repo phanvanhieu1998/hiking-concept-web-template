@@ -1,8 +1,12 @@
 <template>
   <div class="group6">
-      <img  class="done1" src="@/assets/group7-image.png">
-      <img class="done" src="@/assets/group6-image.png"> 
-      <img src="@/assets/image1.png">
+      <div class="image9">
+        <img  src="@/assets/image8.png">
+        <img class="imgg" src="@/assets/image9.png">
+        <img class="imgg"  src="@/assets/image10.png">
+
+      </div>
+     
   </div >
 </template>
 
@@ -19,17 +23,14 @@ export default {
     height: auto;
     
 }
-.group6 img{
-  margin-top:-8px ;
-  width: 1285px;
-}
-.done1{
-  position: relative;
-  z-index: 1;
+.image9{
   max-width: 100%;
+
 }
-.done{
-  margin-top: -124px;
+.imgg{
+  margin-top: -5px;
+}
+.image9 img{
   max-width: 100%;
 }
 </style>

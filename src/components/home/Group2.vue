@@ -68,7 +68,12 @@ export default {
   height: auto;
   margin: 0 auto;
 }
-
+.group2-content__img{
+  max-width: 100%;
+}
+/* .group2-content__img img{
+  max-width: 100%;
+} */
 .shapee {
   margin-top: -60px;
   width: 1483px;
@@ -112,7 +117,7 @@ export default {
   height: 530px;
   color: white;
   background-color: #7f7770;
-  margin: 30px 20px;
+  margin: 30px 13px;
 }
 
 .lore {
