@@ -1,7 +1,7 @@
 <template>
   <div class="group8">
     <div class="group8__image">
-      <img src="@/assets/group8-image1.png" />
+      <img src="@/assets/image11.png" />
     </div>
     <div class="here">
       <span>Title here</span><br />
@@ -115,6 +115,6 @@ export default {};
 .group8-input {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 </style>

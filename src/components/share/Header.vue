@@ -59,13 +59,15 @@ export default {
   height: auto;
   display: flex;
   justify-content: space-between;
-  padding: 30px  0;
-  
-  
+  padding-top: 30px;
+
  
 }
+.logo{
+  padding-left: 70px;
+}
 .toolbar {
-  padding: 20px 0;
+  padding: 20px 40px 0 0;
   height: auto;
 }
 .header a {

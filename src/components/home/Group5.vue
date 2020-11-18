@@ -4,15 +4,20 @@
       <img src="@/assets/image5.png" />
     </div>
     <div class="group5">
+      
       <div class="group5-text">
         <h5>Hiking in the mountains</h5>
         <p>
           lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei-
         </p>
-        <p>usmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+        <p>usmod tempor incididunt ut labore  dolore magna aliqua. Ut</p>
         <p>enim ad minim veniam quis</p>
       </div>
+      
      
+    </div>
+    <div class="group6-flower">
+      <img src="@/assets/folower.png">
     </div>
      <div class="image5">
       <img src="@/assets/image6.png" />
@@ -43,13 +48,21 @@ export default {};
   padding-top: 20%;
   width: 100%;
 }
-
+.group6-flower{
+  position: relative;
+}
+.group6-flower img{
+  position: absolute;
+  top:-450px;
+}
 .image5 img{
     max-width: 100%;
     margin-top: -5px;
 }
 .group5-text {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .image{
     max-width: 100%;

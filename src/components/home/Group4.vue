@@ -33,12 +33,12 @@ export default {};
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
-  height: auto;
+  height: 775px;
   background-color: #7f7770;
 }
 .group4-text {
   max-width: 50%;
-   
+   background-color: #ddb37d;
   height: auto;
 }
 .moree{
@@ -47,7 +47,7 @@ export default {};
 }
 .group4-image img{
   max-width: 100%;
-  height: auto;
+  height: 775px;
 }
 .group4-image {
   max-width: 100%;

@@ -1,55 +1,58 @@
 <template>
   <div class="group">
     <div class="group2">
-    <div class="group2-text">
-      <h2>LET' S GO</h2>
-      <p>Lorem ipsum dolor sit rit, perferendis ad hic autem?</p>
-      <p>voluptatibus! A nihil quae ad hic autem?</p>
-    </div>
-
-    <div class="group2-content">
-      <div class="group2-content__1">
-        <div class="group2-content__img">
-          <img src="@/assets/place.png" />
-        </div>
-
-        <div class="group2-content__text">
-          <span class="ip"> Lorem ipsum</span>
-          <p class="lore">
-            Lorem ispum dolor sit amet,consectur adipisicing...
-          </p>
-        </div>
+      <div class="group2-text">
+        <h2>LET' S GO</h2>
+        <p>Lorem ipsum dolor sit rit, perferendis ad hic autem?</p>
+        <p>voluptatibus! A nihil quae ad hic autem?</p>
       </div>
 
-      <div class="group2-content__1">
-        <div class="group2-content__img">
-          <img src="@/assets/place.png" />
+      <div class="group2-content">
+        <div class="group2-content__1">
+          <div class="group2-content__img">
+            <img src="@/assets/place.png" />
+          </div>
+
+          <div class="group2-content__text">
+            <span class="ip"> Lorem ipsum</span>
+            <p class="lore">
+              Lorem ispum dolor sit amet,consectur adipisicing...
+            </p>
+          </div>
         </div>
 
-        <div class="group2-content__text">
-          <span class="ip"> Lorem ipsum</span>
-          <p class="lore">
-            Lorem ispum dolor sit amet,consectur adipisicing...
-          </p>
-        </div>
-      </div>
-      <div class="group2-content__1">
-        <div class="group-content__img">
-          <img src="@/assets/place.png" />
-        </div>
+        <div class="group2-content__1">
+          <div class="group2-content__img">
+            <img src="@/assets/place.png" />
+          </div>
 
-        <div class="group2-content__text">
-          <span class="ip"> Lorem ipsum</span>
-          <p class="lore">
-            Lorem ispum dolor sit amet,consectur adipisicing...
-          </p>
+          <div class="group2-content__text">
+            <span class="ip"> Lorem ipsum</span>
+            <p class="lore">
+              Lorem ispum dolor sit amet,consectur adipisicing...
+            </p>
+          </div>
+        </div>
+        <div class="group2-content__1">
+          <div class="group-content__img">
+            <img src="@/assets/place.png" />
+          </div>
+
+          <div class="group2-content__text">
+            <span class="ip"> Lorem ipsum</span>
+            <p class="lore">
+              Lorem ispum dolor sit amet,consectur adipisicing...
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="group2-content__button">
+      <div class="folower">
+        <img src="@/assets/folower.png" />
+      </div>
+      <div class="group2-content__button">
         <button class="show">SHOW MORE</button>
       </div>
-  </div>
+    </div>
   </div>
 </template>
 
@@ -63,17 +66,20 @@ export default {
 </script>
 
 <style>
-.group{
+.group {
   max-width: 1440px;
   height: auto;
   margin: 0 auto;
 }
-.group2-content__img{
+.group2-content__img {
   max-width: 100%;
 }
 /* .group2-content__img img{
   max-width: 100%;
 } */
+.folower {
+  margin-top: -170px;
+}
 .shapee {
   margin-top: -60px;
   width: 1483px;
@@ -84,8 +90,8 @@ export default {
   font-size: 63px;
   color: #e2a355;
   font-weight: 800;
-  font-family: 'Open Sans', sans-serif;
-  margin: 100px 0 0 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -129,7 +135,7 @@ export default {
 
 .group2-content__text {
   margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .show {
   font-size: 23px;
@@ -153,5 +159,6 @@ export default {
   display: flex;
   justify-content: center;
   margin-left: 0;
+      margin-top: -300px;
 }
 </style>

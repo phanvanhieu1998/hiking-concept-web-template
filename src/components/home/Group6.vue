@@ -1,10 +1,12 @@
 <template>
   <div class="group6">
+    <div class="group6-image">
+      <img  src="@/assets/image1.png">
+    </div>
       <div class="image9">
-        <img  src="@/assets/image8.png">
+        
         <img class="imgg" src="@/assets/image9.png">
         <img class="imgg"  src="@/assets/image10.png">
-
       </div>
      
   </div >
@@ -21,16 +23,25 @@ export default {
     margin: 0 auto;
     max-width: 1440px;
     height: auto;
+
     
 }
-.image9{
+.group6-image{
   max-width: 100%;
-
+  position: relative;
+}
+.group6-image img{
+  max-width: 100%;
+  position: absolute;
+  z-index: 1;
+  top:-10px
 }
 .imgg{
   margin-top: -5px;
 }
 .image9 img{
   max-width: 100%;
+  
+  z-index: 1;
 }
 </style>

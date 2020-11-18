@@ -1,11 +1,11 @@
 <template>
   <div class="h1">
     <div class="h1__image">
-      <img src="@/assets/image1.png">
+      <img src="@/assets/image1.png" />
     </div>
     <div class="body">
       <div class="body-image">
-        <img src="@/assets/image.png" /> 
+        <img src="@/assets/image.png" />
       </div>
       <div class="text">
         <h2>IT' S TIME</h2>
@@ -20,10 +20,9 @@
         </p>
       </div>
       <div class="image2">
-        <img src="@/assets/image2.png">
+        <img src="@/assets/image2.png" />
       </div>
     </div>
-   
   </div>
 </template>
 <script>
@@ -39,40 +38,45 @@ export default {
 .h1 {
   margin: 0 auto;
   max-width: 1440px;
-}
-.h1__image{
-  width: 100%;
-  
-}
-.image2 img{
-   width: 100%;
-  margin: 0 auto;
-  
   position: relative;
-  top:-5px;
-  left: -5px;
 }
-.h1__image img{
+.h1__image {
   width: 100%;
-  margin-left: -6px;
-  
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+}
+.image2 img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -140px;
+  position: absolute;
+  left: -5px;
+  height: 138px;
+}
+.h1__image img {
+  width: 100%;
+  margin-left: -5px;
 }
 .body {
   margin: 0 auto;
 
   width: 100%;
-  
+
   height: auto;
   position: relative;
 }
 .body-image img {
   width: 100%;
-  height: 600px;
+  height: 900px;
   margin-left: -5px;
   margin-top: -5px;
 }
-.shapee{
+.shapee {
   width: 300px;
+}
+.body-image {
+  margin-top: 20px;
 }
 .body h2 {
   line-height: 2.5;
@@ -97,7 +101,7 @@ export default {
 }
 .text {
   position: absolute;
-  top: 100px;
+  top: 240px;
   margin-left: 50px;
   font-family: "Open Sans", sans-serif;
 }

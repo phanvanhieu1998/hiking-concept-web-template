@@ -10,7 +10,7 @@
         </div>
 
         <p>
-          Lorem ipsum, dolor sit amet cupiditate molestiae nemus adipisci porro?
+          Lorem ipsum, dolor sit amet cupiditate 
           porro? Animi laborum rem Animi laborum !
         </p>
         <div class="more">
@@ -34,7 +34,7 @@ export default {};
   display: flex;
   max-width: 100%;
 
-  height: auto;
+  height: 775px;
   background-color: #7f7770;
   margin-top: 180px;
 }
@@ -46,13 +46,14 @@ export default {};
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   
+  
   display: block;
 }
 .more{
-  margin-top: -45px;
+  margin-top: -30px;
 }
 .up{
- margin: 150px 10px 60px 60px;
+ margin: 150px 70px 60px 60px;
 }
 .group3-text span {
   width: 100%;
@@ -68,7 +69,7 @@ export default {};
 .group3-image img {
   max-width: 100%;
   position: relative;
-  height: auto;
+  height: 775px;
   z-index: 1;
 }
 .group3-text p {
@@ -78,12 +79,11 @@ export default {};
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-left: 60px;
+  margin-right: 100px;
   
  
 }
-.more {
-  /* margin-top: -45px; */
-}
+
 .group3-text button {
   width: 300px;
   height: 70px;

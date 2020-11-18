@@ -20,18 +20,23 @@
         <p>Quasi corporis quaerat,</p>
       </div>
     </div>
+
     <div class="group7-content__2">
-      
       <p>
         lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei-
       </p>
       <p>usmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
       <p>enim ad minim veniam quis</p>
+      
       <div class="done">
         <span>Lorem Ipsum</span>
+        <div class="group8-flower">
+           
+        </div>
       </div>
+      
+      
     </div>
- 
     
   </div>
 </template>
@@ -46,8 +51,8 @@ export default {};
   max-width: 1440px;
   height: 500px;
   background-color: white;
-  
 }
+
 .group7-content {
   display: flex;
   max-width: 100%;
@@ -55,8 +60,8 @@ export default {};
   justify-content: space-around;
   height: auto;
   margin-top: 100px;
-     padding-left: 70px;
-         padding-right: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .ipsum {
   font-size: 33px;
@@ -83,7 +88,7 @@ export default {};
 
   position: relative;
 }
-.done{
+.done {
   margin-top: 50px;
 }
 .group7-content__2 p {
@@ -101,8 +106,5 @@ export default {};
   font-weight: 800;
   font-family: "Open Sans";
   text-align: center;
-  
-  
- 
 }
 </style>
