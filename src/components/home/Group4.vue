@@ -35,6 +35,8 @@ export default {};
   margin: 0 auto;
   height: 775px;
   background-color: #7f7770;
+  
+ 
 }
 .group4-text {
   max-width: 50%;
